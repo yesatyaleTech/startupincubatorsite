@@ -20,9 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Footer>
-        
-      </Footer>
+      <Footer />
     </div>
   );
 }
