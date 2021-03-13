@@ -10,12 +10,12 @@ export default class Footer extends React.Component<{}>{
             <div className="footer-container">
                 <div className="footer-content">
                     <div className="footer-left">
-                        <p>Yale Entrepreneurial Society</p>
+                        <h2>Yale Entrepreneurial Society</h2>
                         <p>Yale University</p>
                         <p>New Haven, CT</p>
                         <div className="social-container">
                             <br />
-                            <p>Follow Us</p>
+                            <h4>Follow Us</h4>
                             <a target="_blank" href="https://www.instagram.com/yale_entrepreneurs/" className="social-icon social-icon"
                                 aria-label="instagram" style={{ display: "inline-block", position: "relative", overflow: "hidden", verticalAlign: "middle", height: "30px", width: "30px" }}>
                                 <div className="social-container" style={{ position: "absolute", top: "0px", left: "0px", width: "100%", height: "100%" }}>
@@ -103,7 +103,7 @@ export default class Footer extends React.Component<{}>{
                         </div>
                     </div >
                     <div className="footer-right">
-                        <p>Learn More</p>
+                        <h2>Learn More</h2>
                         <div>
                             <a href="/">Home</a></div>
                         <div>
@@ -115,7 +115,7 @@ export default class Footer extends React.Component<{}>{
                         <div>
                             <a href="/catalog">Catalog</a>
                         </div>
-                        <p className="yes-links">Yale Entrepreneurial Society</p>
+                        <h2 className="yes-links">Yale Entrepreneurial Society</h2>
                         <div>
                             <a target="_blank" rel="noreferrer" href="https://www.yesatyale.org/">Home</a>
                         </div
