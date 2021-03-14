@@ -1,14 +1,37 @@
-import React from  'react';
+import React from 'react';
 import StartUpCardProps from '../../models/StartUpCardProps';
+import './StartupCard.css';
 
-export default class StartUp extends React.Component<StartUpCardProps>{
-    
+export default class StartUpCard extends React.Component<StartUpCardProps>{
 
-    render(){
+
+    render() {
         return (
-            <div>
-                
-            </div>
+            <div className="startup-card-container">
+                <span className="header" >
+                    <p>{this.props.founder}</p>
+                    <circle className="logo-circle">
+                        <img className="startup-logo" alt="logo" src={this.props.logo} />
+                    </circle>
+
+                </span>
+                <span className="footer">
+                    <p>{this.props.name}</p>
+                    <p>{this.props.writeup}</p>
+                    <div className="button-container">
+                        <a href={this.props.websiteLink}>
+                            <button className="startup-card-btn">
+                                Visit Site
+                        </button>
+                        </a>
+                        <a href={`mailto:${this.props.contact}`}>
+                            <button className="startup-card-btn">
+                                Connect
+                        </button>
+                        </a>
+                    </div>
+                </span>
+            </div >
         )
     }
 }

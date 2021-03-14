@@ -2,24 +2,43 @@ import React from 'react';
 import logo from '../images/logo.svg';
 import './App.css';
 import Footer from '../components/Footer/Footer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Mentorship from './Mentorship/Mentorship';
+import Home from './Home/Home';
+import Fundraising from './Fundraising/Fundraising';
+import Startups from './Startups/Startups';
+import Header from '../components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section className="page-body">
+        <Router>
+          <Switch>
+            <Route path='/fundraising'>
+              <Fundraising />
+            </Route>
+            <Route path='/mentorship'>
+              <Mentorship />
+            </Route>
+            <Route path="/startups">
+              <Startups />
+            </Route>
+            <Route path="/venture-capital">
+              <Startups />
+            </Route>
+            <Route path='/'>
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </section>
       <Footer />
     </div>
   );

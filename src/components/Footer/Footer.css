@@ -1,8 +1,9 @@
-body {
+.footer-container {
     background-color: #051b32;
+    width: 100%;
 }
 
-p {
+.footer-container p {
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 21px;
@@ -11,13 +12,8 @@ p {
     text-align: left
 }
 
-h4 {
+.footer-container h4 {
     color: white;
-}
-
-body {
-    width: 100%;
-    font-family: "futura-pt", "Segoe UI";
 }
 
 .footer-content {

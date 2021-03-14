@@ -1,0 +1,61 @@
+header {}
+
+.logo {}
+
+#navbar {}
+
+#burger-menu {}
+
+#tag-line {}
+
+@media only screen and (max-width:767px) {
+    header {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #00AFEA;
+        background-color: #00356B;
+    }
+    .logo {
+        grid-row: 1;
+        padding: .5rem;
+        height: 15vmin;
+        pointer-events: none;
+    }
+    #navbar {
+        display: none;
+    }
+    #tag-line {
+        margin: .5rem;
+        padding-bottom: 2vh;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    header {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        background-color: #00356B;
+        display: grid;
+    }
+    .logo {
+        grid-row: 1;
+        padding: .5rem;
+        height: 15vmin;
+        pointer-events: none;
+    }
+    #tag-line {
+        grid-row: 1;
+        padding-top: 7vh;
+    }
+    #navbar {
+        grid-row: 1;
+        padding-top: 5vh;
+    }
+    #burger-menu {
+        display: none;
+    }
+}
