@@ -1,7 +1,8 @@
 export default interface StartUpCardProps{
-    name: String,
-    writeup: String,
-    founder: String,
-    websiteLink: String,
-    contact: String,
+    name: string,
+    writeup: string,
+    founder: string,
+    websiteLink: string,
+    contact: string,
+    logo: string,
 }

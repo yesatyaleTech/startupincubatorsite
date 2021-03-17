@@ -1,23 +1,38 @@
-body {
+.footer-container {
     background-color: #051b32;
+    width: 100%;
 }
 
-p {
+.footer-container p {
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     line-height: 1.5;
-    color: #212529;
-    text-align: left
-}
-
-h4 {
     color: white;
+    text-align: left;
 }
 
-body {
-    width: 100%;
-    font-family: "futura-pt", "Segoe UI";
+.footer-container h4 {
+    color: white;
+    text-align: left;
+}
+
+.footer-container h4 {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+
+.footer-container a {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(67, 131, 216);
+    text-decoration: none;
+    font-weight: 00;
 }
 
 .footer-content {
@@ -48,15 +63,12 @@ body {
 
 .footer-container .footer-left p {
     color: #fff;
-    margin: 0
+    margin: 0;
 }
 
 .footer-container .footer-left .social-container {
-    padding-top: 0px
-}
-
-.footer-container .footer-left .social-icon:nth-child(2) {
-    margin-left: 0
+    padding-top: 0px;
+    text-align: left;
 }
 
 .footer-container .footer-left .social-icon {
@@ -70,7 +82,8 @@ body {
 }
 
 .footer-container .footer-right {
-    padding: 50px 12% 50px 50px
+    padding: 50px 12% 50px 50px;
+    text-align: left;
 }
 
 .footer-container .footer-right p {

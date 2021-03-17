@@ -1,0 +1,20 @@
+.headshot {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.headshot-circle {
+    height: 80px;
+    width: 80px;
+}
+
+.leader-info {
+    height: fit-content;
+    width: 200px;
+}
+
+.leader-info .bio {
+    color: grey;
+    font-size: 14px;
+}
