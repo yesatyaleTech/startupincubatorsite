@@ -35,15 +35,15 @@ export default class About extends React.Component<{}>{
                 <span className="leaders">
                     <Leaders
                     headshotURL="https://goduke.com/images/2019/9/18/Klitenic_Clark.jpg"
-                    bio="Hey my name's Clark and I'm the goat!"
+                    bio="Clark is a sophomore Trumbullian and a member of the Yale Baseball team. He’s taking a gap year to lead the incubator and work on StatStak"
                     />
                     <Leaders
                     headshotURL="https://goduke.com/images/2019/9/18/Klitenic_Clark.jpg"
-                    bio="Hey my name's Clark and I'm the goat!"
+                    bio="Clark is a sophomore Trumbullian and a member of the Yale Baseball team. He’s taking a gap year to lead the incubator and work on StatStak"
                     />
                     <Leaders
                     headshotURL="https://goduke.com/images/2019/9/18/Klitenic_Clark.jpg"
-                    bio="Hey my name's Clark and I'm the goat!"
+                    bio="Clark is a sophomore Trumbullian and a member of the Yale Baseball team. He’s taking a gap year to lead the incubator and work on StatStak"
                     />
                 </span>
             </div>
