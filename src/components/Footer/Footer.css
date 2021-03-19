@@ -66,7 +66,6 @@
 .footer-container .footer-left .social-icon {
     margin-right: 10px;
     transition: opacity .3s;
-
 }
 
 .footer-container .footer-left .social-icon:hover {
@@ -85,7 +84,7 @@
 }
 
 .footer-container .footer-right h2 {
-    white-space:normal!important;
+    white-space: normal!important;
 }
 
 .footer-container .footer-right .yes-links {
@@ -120,10 +119,8 @@
         padding-right: 0px!important;
         padding-left: 12%!important;
     }
-
-    
-
 }
+
 
 /* .footer-content{display:flex;flex-direction:row}@media screen and (max-width:568px){
         .footer-container{margin-top:20vh}.footer-container 

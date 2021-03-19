@@ -12,12 +12,12 @@ class NavBar extends React.Component<{}, CurrentPage>{
                 <a className="nav-link" href="/startups">
                     Startups
                 </a>
-                <a className="nav-link" href="/fundraising">
+                {/* <a className="nav-link" href="/fundraising">
                     Fundraising this month
                 </a>
                 <a className="nav-link" href="/mentorship">
                     Looking for mentorship
-                </a>
+                </a> */}
                 <a className="nav-link" id="last-nav-link" href="/venture-capital">
                     VC Team
                 </a>
