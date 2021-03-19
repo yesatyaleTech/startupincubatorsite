@@ -5,11 +5,12 @@
 
 .footer-container p {
     font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: white;
     text-align: left;
+    white-space: nowrap;
 }
 
 .footer-container h2 {
@@ -40,19 +41,8 @@
     flex-direction: row;
 }
 
-@media screen and (max-width:568px) {
-    .footer-right {
-        width: 76%!important;
-        padding-right: 0!important;
-        padding-left: 12%!important
-    }
-    .footer-container .footer-right {
-        padding-top: 0!important
-    }
-}
-
 .footer-container .footer-left {
-    padding: 50px 50px 50px 12%;
+    padding: 50px 20px 20px 12%;
     width: 30%;
     margin-right: 20%;
 }
@@ -70,11 +60,13 @@
 .footer-container .footer-left .social-container {
     padding-top: 0px;
     text-align: left;
+    white-space: nowrap;
 }
 
 .footer-container .footer-left .social-icon {
     margin-right: 10px;
-    transition: opacity .3s
+    transition: opacity .3s;
+
 }
 
 .footer-container .footer-left .social-icon:hover {
@@ -92,6 +84,10 @@
     margin: 0 0 10px
 }
 
+.footer-container .footer-right h2 {
+    white-space:normal!important;
+}
+
 .footer-container .footer-right .yes-links {
     margin-top: 16px
 }
@@ -103,7 +99,9 @@
 }
 
 .footer-container .copy-container hr {
-    border: .25px solid #FFF;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
     margin-right: 30%;
 }
 
@@ -113,6 +111,19 @@
     color: #fff
 }
 
+@media screen and (max-width:568px) {
+    .footer-content {
+        flex-wrap: wrap!important;
+    }
+    .footer-container .footer-right {
+        padding-top: 5%!important;
+        padding-right: 0px!important;
+        padding-left: 12%!important;
+    }
+
+    
+
+}
 
 /* .footer-content{display:flex;flex-direction:row}@media screen and (max-width:568px){
         .footer-container{margin-top:20vh}.footer-container 
