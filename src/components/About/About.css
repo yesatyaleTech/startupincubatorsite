@@ -1,3 +1,7 @@
+.about h3 {
+    color: #00356B
+}
+
 .directory {
     display: grid;
     margin: 2rem;
@@ -45,5 +49,24 @@
 .leaders {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 220px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width:568px) {
+    .ww-do {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .leaders {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3);
+    }
+    .for-alum {
+        padding-top: 5rem;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .for-founders {
+        padding-top: 1rem;
+    }
 }

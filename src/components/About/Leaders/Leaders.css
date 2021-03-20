@@ -1,17 +1,19 @@
 .headshot {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 
 .headshot-circle {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
 }
 
 .leader-info {
     height: fit-content;
     width: 200px;
+    align-self: center;
+    justify-self: center;
 }
 
 .leader-info .bio {
