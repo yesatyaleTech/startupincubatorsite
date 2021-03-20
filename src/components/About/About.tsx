@@ -1,11 +1,15 @@
 import React from 'react';
 import './About.css'
 import Leaders from './Leaders/Leaders';
+import clark from '../../images/clarkk.jpeg';
+import johnathan from '../../images/johnathanp.jpg';
+import emma from '../../images/emmar.jpeg';
+
 export default class About extends React.Component<{}>{
 
     render() {
         return (
-            <div>
+            <div className="about">
                 <h3>
                     ¿ What we do ?
                 </h3>
@@ -32,18 +36,21 @@ export default class About extends React.Component<{}>{
                         </a>
                     </span>
                 </div>
+                <h3>
+                    Our Team
+                </h3>
                 <span className="leaders">
                     <Leaders
-                    headshotURL="https://goduke.com/images/2019/9/18/Klitenic_Clark.jpg"
-                    bio="Hey my name's Clark and I'm the goat!"
+                    headshotURL={emma}
+                    bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year."
                     />
                     <Leaders
-                    headshotURL="https://goduke.com/images/2019/9/18/Klitenic_Clark.jpg"
-                    bio="Hey my name's Clark and I'm the goat!"
+                    headshotURL={johnathan}
+                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math. "
                     />
                     <Leaders
-                    headshotURL="https://goduke.com/images/2019/9/18/Klitenic_Clark.jpg"
-                    bio="Hey my name's Clark and I'm the goat!"
+                    headshotURL={clark}
+                    bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
                     />
                 </span>
             </div>
