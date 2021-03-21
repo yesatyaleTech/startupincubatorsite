@@ -13,6 +13,7 @@ import Home from './Home/Home';
 import Fundraising from './Fundraising/Fundraising';
 import Startups from './Startups/Startups';
 import Header from '../components/Header/Header';
+import VentureCapital from './VentureCapital/VentureCapital';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
               <Startups />
             </Route>
             <Route path="/venture-capital">
-              <Startups />
+              <VentureCapital />
             </Route>
             <Route path='/'>
               <Home />
