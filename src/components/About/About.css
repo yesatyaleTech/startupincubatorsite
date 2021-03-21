@@ -1,5 +1,15 @@
-.about h3 {
-    color: #00356B
+.about h2 {
+    color: #00356B;
+    font-family: 'LottePaperFang';
+}
+
+.ww-do-title {
+    display: inline-block;
+}
+
+#upsideDownQMark {
+    display: inline-block;
+    transform: rotate(180deg);
 }
 
 .directory {
@@ -27,7 +37,7 @@
     background-color: #00356B;
     color: white;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 12px;
     padding: 1rem;
     font-weight: bold;
     outline: none;
@@ -50,6 +60,8 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 
 .board {

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../index.css';
 import './About.css'
 import Leaders from './Leaders/Leaders';
 import clark from '../../images/clarkk.jpeg';
@@ -18,9 +19,10 @@ export default class About extends React.Component<{}>{
     render() {
         return (
             <div className="about">
-                <h3>
-                    ¿ What we do ?
-                </h3>
+                <h2 id="ww-do-title">
+                    <span id="upsideDownQMark">?</span>
+                    &nbsp; What we do ?
+                </h2>
                 <p className="ww-do">
                     We’re unifying the Yale entrepreneurial ecosystem and providing yalies with everything they need to start and scale their ventures.
                 </p>
@@ -44,26 +46,26 @@ export default class About extends React.Component<{}>{
                         </a>
                     </span>
                 </div>
-                <h3>
+                <h2>
                     Our Team
-                </h3>
+                </h2>
                 <span className="leaders">
                     <Leaders
                     headshotURL={emma}
                     bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year."
                     />
                     <Leaders
-                    headshotURL={johnathan}
-                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
-                    />
-                    <Leaders
                     headshotURL={clark}
                     bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
                     />
+                    <Leaders
+                    headshotURL={johnathan}
+                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
+                    />
                 </span>
-                <h3>
+                <h2>
                     Meet Our Board
-                </h3>
+                </h2>
                 <span className="board">
                     <BoardLeft
                     headshotURL={vicki}
