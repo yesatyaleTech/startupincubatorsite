@@ -14,7 +14,9 @@
     width: 600px;
     flex-direction: row;
     padding: 60px 0;
+    grid-column: 2;
     display: flex;
+    margin-top: 150px;
     justify-content: center;
     align-items: center;
 }
@@ -22,4 +24,5 @@
 .board-right-info .right-bio {
     color: grey;
     font-size: 14px;
+    width: 200px
 }

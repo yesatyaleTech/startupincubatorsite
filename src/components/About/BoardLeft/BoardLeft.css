@@ -12,14 +12,17 @@
 .board-left-info {
     height: fit-content;
     width: 600px;
+    grid-column: 1;
     flex-direction: row;
     padding: 60px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .board-left-info .left-bio {
     color: grey;
     font-size: 14px;
+    width: 200px;
 }
