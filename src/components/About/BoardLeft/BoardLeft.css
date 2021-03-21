@@ -1,0 +1,25 @@
+.board-left-headshot {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.board-left-headshot-circle {
+    height: 120px;
+    width: 120px;
+}
+
+.board-left-info {
+    height: fit-content;
+    width: 600px;
+    flex-direction: row;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-left-info .left-bio {
+    color: grey;
+    font-size: 14px;
+}

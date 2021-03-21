@@ -1,0 +1,25 @@
+.board-right-headshot {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.board-right-headshot-circle {
+    height: 120px;
+    width: 120px;
+}
+
+.board-right-info {
+    height: fit-content;
+    width: 600px;
+    flex-direction: row;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-right-info .right-bio {
+    color: grey;
+    font-size: 14px;
+}

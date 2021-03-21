@@ -4,6 +4,14 @@ import Leaders from './Leaders/Leaders';
 import clark from '../../images/clarkk.jpeg';
 import johnathan from '../../images/johnathanp.jpg';
 import emma from '../../images/emmar.jpeg';
+import BoardLeft from './BoardLeft/BoardLeft';
+import BoardRight from './BoardRight/BoardRight';
+import vicki from '../../images/vicki.jpeg';
+import lisbeth from '../../images/lisbeth.jpeg';
+import philip from '../../images/philip.jpeg';
+import sam from '../../images/sam.jpeg';
+import leslie from '../../images/leslie.jpeg';
+import kofi from '../../images/kofi.jpeg';
 
 export default class About extends React.Component<{}>{
 
@@ -46,11 +54,40 @@ export default class About extends React.Component<{}>{
                     />
                     <Leaders
                     headshotURL={johnathan}
-                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math. "
+                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
                     />
                     <Leaders
                     headshotURL={clark}
                     bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
+                    />
+                </span>
+                <h3>
+                    Meet Our Board
+                </h3>
+                <span className="board">
+                    <BoardLeft
+                    headshotURL={vicki}
+                    bio="Vicki Politis is the Managing Director of Golden Seeds, a fund that invests in women-led ventures across the nation."
+                    />
+                    <BoardRight
+                    headshotURL={lisbeth}
+                    bio="Lisbeth Kaufman is the founder of KitSplit and is leading startup mentorship/ development at AWS."
+                    />
+                    <BoardLeft
+                    headshotURL={philip}
+                    bio="Philip Stanger is the Founder and CEO of Olyns and the Entrepreneur in Residence at Vanedge Capital."
+                    />
+                    <BoardRight
+                    headshotURL={sam}
+                    bio="Sam Hendel is the President at Easterly Investment Partners, the Co-Founder of Dataminr, and the co-founder of Accelerate Yale & Yale Angels."
+                    />
+                    <BoardLeft
+                    headshotURL={leslie}
+                    bio="Leslie Goldman is an investor at Blue Ivy Ventures and Co-Founder and general partner at the Artemis Fund which invests in pre-seed and seed women-led ventures."
+                    />
+                    <BoardRight
+                    headshotURL={kofi}
+                    bio="Kofi Ampadu is a general partner SKU'D ventures, a pre-seed fund that invests in consumer brand startups."
                     />
                 </span>
             </div>
