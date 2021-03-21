@@ -52,6 +52,11 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.board {
+    display: grid;
+    justify-content: center;
+}
+
 @media screen and (max-width:568px) {
     .ww-do {
         margin-left: 10vw;
