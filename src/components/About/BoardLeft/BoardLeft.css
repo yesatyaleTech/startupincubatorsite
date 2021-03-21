@@ -1,0 +1,39 @@
+.board-left-headshot {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.board-left-headshot-circle {
+    height: 120px;
+    width: 120px;
+}
+
+.board-left-info {
+    height: fit-content;
+    width: fit-content;
+    grid-column: 1;
+    flex-direction: row;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgba(211, 211, 211, 0.315);
+    border-radius: 25px;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 568px) {
+    .board-left-info {
+        margin-bottom: none;
+        margin-right: none;
+        margin: 1rem;
+    }
+}
+
+.board-left-info .left-bio {
+    color: grey;
+    font-size: 14px;
+    width: 200px;
+}

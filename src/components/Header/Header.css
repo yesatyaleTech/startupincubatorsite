@@ -8,7 +8,7 @@ header {}
 
 #tag-line {}
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:568px) {
     header {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
         flex-direction: column;
@@ -16,6 +16,7 @@ header {}
         justify-content: center;
         color: #00AFEA;
         background-color: #00356B;
+        align-items: center;
     }
     .logo {
         grid-row: 1;
@@ -25,10 +26,6 @@ header {}
     }
     #navbar {
         display: none;
-    }
-    #tag-line {
-        margin: .5rem;
-        padding-bottom: 2vh;
     }
 }
 
@@ -40,20 +37,20 @@ header {}
         font-size: 1.5rem;
         background-color: #00356B;
         display: grid;
+        align-items: center;
     }
     .logo {
         grid-row: 1;
         padding: .5rem;
-        height: 15vmin;
+        height: 10vmin;
         pointer-events: none;
-    }
-    #tag-line {
-        grid-row: 1;
-        padding-top: 7vh;
     }
     #navbar {
         grid-row: 1;
-        padding-top: 5vh;
+        justify-content: center;
+        justify-self: end;
+        vertical-align: middle;
+        margin-right: 2rem;
     }
     #burger-menu {
         display: none;
