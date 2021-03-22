@@ -71,3 +71,15 @@
     border-radius: 12px;
     object-fit: contain;
 }
+
+@media screen and (max-width: 568px) {
+    .startup-card-container {
+        width: 250px;
+        margin-bottom: 1rem;
+    }
+    .startup-card-container .button-container {
+        text-align: center;
+        margin-left: none;
+        margin-right: none;
+    }
+}
