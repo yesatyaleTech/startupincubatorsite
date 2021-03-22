@@ -1,6 +1,12 @@
+.startups h2 {
+    font-family: "LottePaperFang";
+    color: #00356B;
+}
+
 .startups-body {
     background-color: white;
-}
-.aligner {
-    display:inline-flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }

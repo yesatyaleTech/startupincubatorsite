@@ -10,14 +10,12 @@ export default class StartUpCard extends React.Component<StartUpCardProps>{
             <div className="startup-card-container">
                 <span className="header" >
                     <p>{this.props.founder}</p>
-                    <circle className="logo-circle">
                         <img className="startup-logo" alt="logo" src={this.props.logo} />
-                    </circle>
 
                 </span>
                 <span className="footer">
                     <p>{this.props.name}</p>
-                    <p>{this.props.writeup}</p>
+                    <p className="startup-writeup">{this.props.writeup}</p>
                     <div className="button-container">
                         <a href={this.props.websiteLink}>
                             <button className="startup-card-btn">

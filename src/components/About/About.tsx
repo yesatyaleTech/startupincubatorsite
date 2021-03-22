@@ -52,15 +52,15 @@ export default class About extends React.Component<{}>{
                 <span className="leaders">
                     <Leaders
                     headshotURL={emma}
-                    bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year."
+                    bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year. VC Team Lead"
                     />
                     <Leaders
                     headshotURL={clark}
-                    bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
+                    bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak. Incubator Lead"
                     />
                     <Leaders
                     headshotURL={johnathan}
-                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
+                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math. Pod Experience Lead"
                     />
                 </span>
                 <h2>
