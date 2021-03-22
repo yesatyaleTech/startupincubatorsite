@@ -1,6 +1,8 @@
 import React from 'react';
 import StartUpCard from '../../components/StartupCard/StartupCard';
 import './Startups.css'
+import craniometrix from '../../images/craniometrix.jpg'
+import enlighteN from '../../images/enlighteN.jpg'
 
 export default class Startups extends React.Component<{}> {
 
@@ -89,7 +91,7 @@ export default class Startups extends React.Component<{}> {
                         writeup="First software tools that quickly, inexpensively, and accurately catch Alzheimer’s disease years before a doctor"
                         websiteLink="https://drive.google.com/file/d/1sQcOToYQCn19T9RYNQ-HIZxdXxAilRFe/view"
                         contact=""
-                        logo=""
+                        logo={craniometrix}
                     />
 
                     <StartUpCard
@@ -113,10 +115,10 @@ export default class Startups extends React.Component<{}> {
                     <StartUpCard
                         name="enlighteN"
                         founder="Chandra Fincke"
-                        writeup=""
+                        writeup="Detect opioid-induced respiratory depression in real-time to develop the first closed-loop naloxone injection system"
                         websiteLink=""
                         contact=""
-                        logo=""
+                        logo={enlighteN}
                     />
 
                     <StartUpCard
