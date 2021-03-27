@@ -13,6 +13,7 @@ import philip from '../../images/philip.jpeg';
 import sam from '../../images/sam.jpeg';
 import leslie from '../../images/leslie.jpeg';
 import kofi from '../../images/kofi.jpeg';
+import IncubatorImage from '../../images/WhatWeDo.svg';
 
 export default class About extends React.Component<{}>{
 
@@ -23,6 +24,7 @@ export default class About extends React.Component<{}>{
                     <span id="upsideDownQMark">?</span>
                     &nbsp; What we do ?
                 </h2>
+                <img src={IncubatorImage} className="incubator-image" />
                 <p className="ww-do">
                     We’re unifying the Yale entrepreneurial ecosystem and providing yalies with everything they need to start and scale their ventures.
                 </p>
