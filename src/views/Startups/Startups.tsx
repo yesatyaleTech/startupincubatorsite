@@ -3,6 +3,7 @@ import StartUpCard from '../../components/StartupCard/StartupCard';
 import './Startups.css'
 import craniometrix from '../../images/craniometrix.jpg'
 import enlighteN from '../../images/enlighteN.jpg'
+import startups from '../../images/Startups.svg';
 
 export default class Startups extends React.Component<{}> {
 
@@ -12,6 +13,9 @@ export default class Startups extends React.Component<{}> {
                 <h2>
                     Meet our Startups
                 </h2>
+                <img src={startups}  className="startup-illustration" />
+                <br/>
+                <br/>
                 <div className="startups-body">
                     <StartUpCard
                         name="Quorilla"

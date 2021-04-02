@@ -11,8 +11,12 @@
     align-items: center;
 }
 
-@media screen and (max-width: 568px){
-    .startups-body{
+.startup-illustration {
+    width: 60vw;
+}
+
+@media screen and (max-width: 568px) {
+    .startups-body {
         grid-template-columns: repeat(1, 1fr);
     }
 }

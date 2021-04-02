@@ -10,7 +10,11 @@ export default class Header extends React.Component<{}>{
         return (
             <>
                 <header className="header">
-                    <img src={logo} className="logo" alt="logo" />
+                    <nav className="logo">
+                        <a className="logo" href="/">
+                            <img src={logo} className="logo" alt="logo" />
+                        </a>
+                    </nav>
                     <div id="navbar"><NavBar /></div>
                     <span id="burger-menu">
                         <HamburgerMenu />
