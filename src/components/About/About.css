@@ -3,6 +3,10 @@
     font-family: 'LottePaperFang';
 }
 
+.incubator-image {
+    width: 30vw;
+}
+
 .ww-do-title {
     display: inline-block;
 }

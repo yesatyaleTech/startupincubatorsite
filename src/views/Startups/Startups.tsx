@@ -3,6 +3,7 @@ import StartUpCard from '../../components/StartupCard/StartupCard';
 import './Startups.css'
 import craniometrix from '../../images/craniometrix.jpg'
 import enlighteN from '../../images/enlighteN.jpg'
+import startups from '../../images/Startups.svg';
 
 export default class Startups extends React.Component<{}> {
 
@@ -10,8 +11,17 @@ export default class Startups extends React.Component<{}> {
         return (
             <div className="startups">
                 <h2>
-                    Meet our Startups
+                    Meet our <span className="replace-s">S</span>tartup<span className="replace-s">S</span>
                 </h2>
+                <img src={startups}  className="startup-illustration" />
+                <br/>
+                <p className="startups-hype">
+                    Our founders cover edtech, fitness, cleantech, food, and much, much more. 
+                </p>
+                <p className="startups-hype">
+                    With over 5 million dollars raised in capital, this spring cohort of founders represents the next generation of Yalie founders making an impact on the world. 
+                </p>
+                <br/>
                 <div className="startups-body">
                     <StartUpCard
                         name="Quorilla"
