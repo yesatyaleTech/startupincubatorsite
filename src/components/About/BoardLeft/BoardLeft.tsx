@@ -6,6 +6,7 @@ export default class BoardLeft extends React.Component<BoardProps>{
 
     render() {
         return (
+            
             <div className="board-left-info">
                 <circle className="board-left-headshot-circle">
                     <img alt="headshot" className="board-left-headshot" src={this.props.headshotURL} />

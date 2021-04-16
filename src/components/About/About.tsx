@@ -14,6 +14,7 @@ import sam from '../../images/sam.jpeg';
 import leslie from '../../images/leslie.jpeg';
 import kofi from '../../images/kofi.jpeg';
 import IncubatorImage from '../../images/WhatWeDo.svg';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class About extends React.Component<{}>{
 
@@ -94,6 +95,8 @@ export default class About extends React.Component<{}>{
                     bio="Kofi Ampadu is a general partner SKU'D ventures, a pre-seed fund that invests in consumer brand startups."
                     />
                 </span>
+                <br/>
+                <br/>
             </div>
         );
     }
