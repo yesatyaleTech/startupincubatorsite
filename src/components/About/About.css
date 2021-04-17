@@ -3,6 +3,11 @@
     font-family: 'LottePaperFang';
 }
 
+.about h2 .replace-s {
+    font-family: 'Cocogoose';
+    font-size: 1.2em;
+}
+
 .incubator-image {
     width: 30vw;
 }

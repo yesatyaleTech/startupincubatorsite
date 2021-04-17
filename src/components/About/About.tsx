@@ -70,7 +70,7 @@ export default class About extends React.Component<{}>{
                     />
                 </span>
                 <h2>
-                    Our Curators
+                    Our Curator<span className="replace-s">s</span>
                 </h2>
                 <span className="leaders">
                     <Leaders
