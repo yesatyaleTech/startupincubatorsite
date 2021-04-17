@@ -13,6 +13,9 @@ import philip from '../../images/philip.jpeg';
 import sam from '../../images/sam.jpeg';
 import leslie from '../../images/leslie.jpeg';
 import kofi from '../../images/kofi.jpeg';
+import chanwook from '../../images/chanwookp.jpg';
+import prastik from '../../images/prastik.jpeg';
+import alex from '../../images/alexc.jpeg';
 import IncubatorImage from '../../images/WhatWeDo.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -64,6 +67,23 @@ export default class About extends React.Component<{}>{
                     <Leaders
                     headshotURL={johnathan}
                     bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math. Pod Experience Lead"
+                    />
+                </span>
+                <h2>
+                    Our Curators
+                </h2>
+                <span className="leaders">
+                    <Leaders
+                    headshotURL={chanwook}
+                    bio="Chanwook Park is a first-year in Saybrook College interested in studying S&DS and/or Global Affairs."
+                    />
+                    <Leaders
+                    headshotURL={prastik}
+                    bio="Prastik Mohanraj is a rising second-year in Grace Hopper College hoping to study Economics and Political Science."
+                    />
+                    <Leaders
+                    headshotURL={alex}
+                    bio="Alex Chun is a first-year in JE studying Mechanical Engineering and Economics."
                     />
                 </span>
                 <h2>
