@@ -1,0 +1,93 @@
+.vc h2 {
+    color: #00356B;
+    font-family: 'LottePaperFang';
+}
+
+.incubator-image {
+    width: 30vw;
+}
+
+.ww-do-title {
+    display: inline-block;
+}
+
+#upsideDownQMark {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.directory {
+    display: grid;
+    margin: 2rem;
+}
+
+.directory hr {
+    width: 50px;
+}
+
+.for-founders {
+    grid-column: 1;
+    grid-row: 1;
+    font-weight: bold;
+}
+
+.for-alum {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: bold;
+}
+
+.directory-btn {
+    background-color: #00356B;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width: fit-content;
+}
+
+.directory-btn:hover {
+    box-shadow: 2px 2px 5px rgba(98, 95, 131, 0.627);
+}
+
+.ww-do {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.leaders {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+}
+
+@media screen and (max-width:568px) {
+    .ww-do {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .leaders {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3);
+    }
+    .for-alum {
+        padding-top: 5rem;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .for-founders {
+        padding-top: 1rem;
+    }
+}
