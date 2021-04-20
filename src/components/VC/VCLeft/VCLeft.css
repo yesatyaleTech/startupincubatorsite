@@ -1,16 +1,16 @@
-.board-left-headshot {
+.vc-left-headshot {
     height: 120px;
     width: 120px;
     border-radius: 50%;
 }
 
-.board-left-headshot-circle {
+.vc-left-headshot-circle {
     height: 120px;
     width: 120px;
     margin-right: .5rem;
 }
 
-.board-left-info {
+.vc-left-info {
     height: fit-content;
     width: fit-content;
     grid-column: 1;
@@ -26,14 +26,14 @@
 }
 
 @media screen and (max-width: 568px) {
-    .board-left-info {
+    .vc-left-info {
         margin-bottom: none;
         margin-right: none;
         margin: 1rem;
     }
 }
 
-.board-left-info .left-bio {
+.vc-left-info .left-bio {
     color: grey;
     font-size: 14px;
     width: 200px;

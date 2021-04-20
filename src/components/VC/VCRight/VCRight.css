@@ -1,16 +1,16 @@
-.board-right-headshot {
+.vc-right-headshot {
     height: 120px;
     width: 120px;
     border-radius: 50%;
 }
 
-.board-right-headshot-circle {
+.vc-right-headshot-circle {
     height: 120px;
     width: 120px;
     margin-left: .5rem;
 }
 
-.board-right-info {
+.vc-right-info {
     height: fit-content;
     width: fit-content;
     flex-direction: row;
@@ -25,14 +25,14 @@
     margin-left: 1rem;
 }
 
-.board-right-info .right-bio {
+.vc-right-info .right-bio {
     color: grey;
     font-size: 14px;
     width: 200px
 }
 
 @media screen and (max-width:568px) {
-    .board-right-info {
+    .vc-right-info {
         grid-column: 1;
         margin-top: none;
         margin-left: none;

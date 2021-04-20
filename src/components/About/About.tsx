@@ -2,17 +2,21 @@ import React from 'react';
 import '../../index.css';
 import './About.css'
 import Leaders from './Leaders/Leaders';
-import clark from '../../images/clarkk.jpeg';
-import johnathan from '../../images/johnathanp.jpg';
-import emma from '../../images/emmar.jpeg';
+import clark from '../../images/headshots/clarkk.jpeg';
+import johnathan from '../../images/headshots/johnathanp.jpg';
+import emma from '../../images/headshots/emmar.jpeg';
 import BoardLeft from './BoardLeft/BoardLeft';
 import BoardRight from './BoardRight/BoardRight';
-import vicki from '../../images/vicki.jpeg';
-import lisbeth from '../../images/lisbeth.jpeg';
-import philip from '../../images/philip.jpeg';
-import sam from '../../images/sam.jpeg';
-import leslie from '../../images/leslie.jpeg';
-import kofi from '../../images/kofi.jpeg';
+import chanwook from '../../images/headshots/chanwookp.jpg';
+import prastik from '../../images/headshots/prastik.jpeg';
+import alex from '../../images/headshots/alexc.jpeg';
+import vicki from '../../images/headshots/vicki.jpeg';
+import lisbeth from '../../images/headshots/lisbeth.jpeg';
+import philip from '../../images/headshots/philip.jpeg';
+import sam from '../../images/headshots/sam.jpeg';
+import leslie from '../../images/headshots/leslie.jpeg';
+import kofi from '../../images/headshots/kofi.jpeg';
+import IncubatorImage from '../../images/illustrations/Incubatorb.svg';
 
 export default class About extends React.Component<{}>{
 
@@ -23,6 +27,7 @@ export default class About extends React.Component<{}>{
                     <span id="upsideDownQMark">?</span>
                     &nbsp; What we do ?
                 </h2>
+                <img src={IncubatorImage} className="incubator-image" />
                 <p className="ww-do">
                     We’re unifying the Yale entrepreneurial ecosystem and providing yalies with everything they need to start and scale their ventures.
                 </p>
@@ -52,15 +57,32 @@ export default class About extends React.Component<{}>{
                 <span className="leaders">
                     <Leaders
                     headshotURL={emma}
-                    bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year."
+                    bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year. VC Team Lead"
                     />
                     <Leaders
                     headshotURL={clark}
-                    bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
+                    bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak. Incubator Lead"
                     />
                     <Leaders
                     headshotURL={johnathan}
-                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
+                    bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math. Pod Experience Lead"
+                    />
+                </span>
+                <h2>
+                    Our Curator<span className="replace-s">s</span>
+                </h2>
+                <span className="leaders">
+                    <Leaders
+                    headshotURL={chanwook}
+                    bio="Chanwook Park is a first-year in Saybrook College interested in studying S&DS and/or Global Affairs."
+                    />
+                    <Leaders
+                    headshotURL={prastik}
+                    bio="Prastik Mohanraj is a rising second-year in Grace Hopper College hoping to study Economics and Political Science."
+                    />
+                    <Leaders
+                    headshotURL={alex}
+                    bio="Alex Chun is a first-year in JE studying Mechanical Engineering and Economics."
                     />
                 </span>
                 <h2>
@@ -92,6 +114,8 @@ export default class About extends React.Component<{}>{
                     bio="Kofi Ampadu is a general partner SKU'D ventures, a pre-seed fund that invests in consumer brand startups."
                     />
                 </span>
+                <br/>
+                <br/>
             </div>
         );
     }
