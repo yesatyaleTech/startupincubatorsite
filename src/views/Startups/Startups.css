@@ -21,9 +21,9 @@
 }
 
 .startups-hype {
-    font-weight: bold;
     margin-left: 20vw;
     margin-right: 20vw;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 568px) {

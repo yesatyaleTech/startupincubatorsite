@@ -1,12 +1,12 @@
 import React from 'react';
 import StartUpCard from '../../components/StartupCard/StartupCard';
-import './Startups.css'
-import craniometrix from '../../images/craniometrix.jpg'
-import enlighteN from '../../images/enlighteN.jpg'
-import Ren_logo from '../../images/Ren_logo.jpg'
-import Sprxng_logo from '../../images/sprxng.jpg'
-import LOB_logo from '../../images/LOB.png'
-import startups from '../../images/Startups.svg';
+import './Startups.css';
+import Ren_logo from '../../images/logos/Ren_logo.jpg'
+import Sprxng_logo from '../../images/logos/sprxng.jpg'
+import LOB_logo from '../../images/logos/LOB.png'
+import craniometrix from '../../images/logos/craniometrix.jpg'
+import enlighteN from '../../images/logos/enlighteN.jpg'
+import startups from '../../images/illustrations/Startupsb.svg';
 
 export default class Startups extends React.Component<{}> {
 
