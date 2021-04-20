@@ -29,7 +29,7 @@ export default class About extends React.Component<{}>{
                 </h2>
                 <img src={IncubatorImage} className="incubator-image" />
                 <p className="ww-do">
-                    We’re unifying the Yale entrepreneurial ecosystem and providing yalies with everything they need to start and scale their ventures.
+                    We’re unifying the Yale entrepreneurial ecosystem and providing Yalies with everything they need to start and scale their ventures.
                 </p>
                 <div className="directory">
                     <span className="for-founders">
@@ -60,18 +60,21 @@ export default class About extends React.Component<{}>{
                     name="Emma Reilly"
                     bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year."
                     role="VC Team Lead"
+                    linkedin="https://www.linkedin.com/in/emma-reilly-6b3b11177/"
                     />
                     <Leaders
                     headshotURL={clark}
                     name="Clark Klitenic"
                     bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
                     role="Incubator Lead"
+                    linkedin="https://www.linkedin.com/in/clark-klitenic-433a171b0/"
                     />
                     <Leaders
                     headshotURL={johnathan}
                     name="Johnathan Pierre"
                     bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
                     role="Pod Experience Lead"
+                    linkedin="https://www.linkedin.com/in/jonathan-l-pierre/"
                     />
                 </span>
                 <h2>
@@ -82,16 +85,19 @@ export default class About extends React.Component<{}>{
                     headshotURL={chanwook}
                     name="Chanwook Park"
                     bio="Chanwook Park is a first-year in Saybrook College interested in studying S&DS and/or Global Affairs."
+                    linkedin="https://www.linkedin.com/in/chanwookparkyale/"
                     />
                     <Leaders
                     headshotURL={prastik}
                     name="Prastik Mohnraj"
                     bio="Prastik Mohanraj is a rising second-year in Grace Hopper College hoping to study Economics and Political Science."
+                    linkedin="https://www.linkedin.com/in/prastik-mohanraj/"
                     />
                     <Leaders
                     headshotURL={alex}
                     name="Alex Chun"
                     bio="Alex Chun is a first-year in JE studying Mechanical Engineering and Economics."
+                    linkedin="https://www.linkedin.com/in/alexinbaechun/"
                     />
                 </span>
                 <h2>

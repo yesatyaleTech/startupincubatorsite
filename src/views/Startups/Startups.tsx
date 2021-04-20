@@ -52,6 +52,15 @@ export default class Startups extends React.Component<{}> {
                         contact=""
                         logo="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/50/e9/d8/50e9d8e9-c071-f084-8914-af9970c05203/source/512x512bb.jpg"
                     />
+                    
+                    <StartUpCard
+                        name="Sprxng"
+                        founder="Phyllis Mugadza"
+                        writeup="Reusable menstrual product that reduces menstrual cramping"
+                        websiteLink="http://lotsofberries.com/"
+                        contact=""
+                        logo={Sprxng_logo}
+                    /> 
 
                     <StartUpCard
                         name="Cadoo"
@@ -78,6 +87,15 @@ export default class Startups extends React.Component<{}> {
                         websiteLink="https://floesafe.com/"
                         contact="info@floesafe.com"
                         logo="https://floesafe.com/wp-content/uploads/2020/06/Floe-logo-blue.png"
+                    />
+                    
+                    <StartUpCard
+                        name="Ren"
+                        founder="Maddie Mahre"
+                        writeup="Sustainable tailor-fit women’s clothing company that offers wardrobe capsules or individual garments without the price tag or wait time"
+                        websiteLink="https://www.ren-clothing.com/"
+                        contact=""
+                        logo={Ren_logo}
                     />
 
                     <StartUpCard
@@ -134,14 +152,7 @@ export default class Startups extends React.Component<{}> {
                         logo={enlighteN}
                     />
 
-                    <StartUpCard
-                        name="Sprxng"
-                        founder="Phyllis Mugadza"
-                        writeup="Reusable menstrual product that reduces menstrual cramping"
-                        websiteLink="http://lotsofberries.com/"
-                        contact=""
-                        logo={Sprxng_logo}
-                    /> 
+                    
 
                     <StartUpCard
                         name="Ecopackables"
@@ -152,14 +163,6 @@ export default class Startups extends React.Component<{}> {
                         logo="https://cdn.shopify.com/s/files/1/0443/9634/7547/files/ecopackables_green_752x.png?v=1595698484"
                     />
 
-                    <StartUpCard
-                        name="Ren"
-                        founder="Maddie Mahre"
-                        writeup="Sustainable tailor-fit women’s clothing company that offers wardrobe capsules or individual garments without the price tag or wait time"
-                        websiteLink="https://www.ren-clothing.com/"
-                        contact=""
-                        logo={Ren_logo}
-                    />
 
                     <StartUpCard
                         name="Lots of Berries"

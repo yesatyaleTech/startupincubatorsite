@@ -20,6 +20,15 @@
     font-weight: bold;
 }
 
+.leader-info .name a {
+    color: black;
+    text-decoration: none;
+}
+
+.leader-info .name a:hover {
+    color: #00356B;
+}
+
 .leader-info .divider {
     margin-left: 3rem;
     margin-right: 3rem;

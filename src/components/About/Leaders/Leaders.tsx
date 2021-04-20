@@ -10,20 +10,23 @@ export default class Leaders extends React.Component<LeaderProps>{
                 <circle className="headshot-circle">
                     <img alt="headshot" className="headshot" src={this.props.headshotURL} />
                 </circle>
+
                 <p className="name">
-                    {this.props.name}
-                    <br/>
+                    <a target="_blank" href={this.props.linkedin}>
+                        {this.props.name}
+                    </a>
+                    <br />
                     <span className="role">
-                    {this.props.role}
+                        {this.props.role}
                     </span>
                 </p>
                 <hr className="divider">
                 </hr>
-                
+
                 <p className="bio">
                     {this.props.bio}
                 </p>
-                    
+
             </div>
         );
     }
