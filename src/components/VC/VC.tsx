@@ -3,7 +3,7 @@ import '../../index.css';
 import './VC.css'
 import VCLeft from './VCLeft/VCLeft';
 import VCRight from './VCRight/VCRight';
-import VCImage from '../../images/illustrations/VCImage.svg';
+import VCImage from '../../images/illustrations/VCImageb.svg';
 import vikram from '../../images/headshots/vikram.jpg';
 import carolyne from '../../images/headshots/carolyne.jpg';
 import gracie from '../../images/headshots/gracie.jpeg';
@@ -29,22 +29,27 @@ export default class VC extends React.Component<{}>{
                 <span className="board">
                     <VCLeft
                         headshotURL={carolyne}
+                        name="Carolyne Newman"
                         bio="Carolyne is currently taking a gap year while working as a data scientist at Vice Ventures. Her favorite industry verticals include CPG, Climate Tech, AI/ML and Robotics."
                     />
                     <VCRight
                         headshotURL={royce}
+                        name="Royce Guo"
                         bio="Royce is a sophomore on a gap year working with visionary founders, investors, and entrepreneurs at Blue Ivy Ventures."
                     />
                     <VCLeft
                         headshotURL={zakaria}
+                        name="Zakaria Gedi"
                         bio="Zakaria is a junior at Yale University working as an investment partner at the Dorm Room Fund. Professionally, he worked at Bracebridge, a Boston-based absolute return hedge fund, and is currently working part-time at the Yale Investments Office."
                     />
                     <VCRight
                         headshotURL={vikram}
+                        name="Vikram Mullick"
                         bio="Vikram is a Computer Science and Economics major in Ezra Stiles College. He is a VP at Contrary Capital and has past experience working at startups including Snackpass and Matician, an AI/Robotics startup. "
                     />
                     <VCLeft
                         headshotURL={gracie}
+                        name="Gracie Englebert"
                         bio="Gracie is a junior from Wisconsin pursuing a major in history. She currently works at an ed-tech startup and is a passionate Morse IM Secretary."
                     />
                 </span>

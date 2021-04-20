@@ -25,16 +25,44 @@
     margin-right: 1rem;
 }
 
+.board-left-info .left-bio {
+    color: grey;
+    font-size: 14px;
+    width: 200px;
+}
+
+.board-left-info .left-bio .divider {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 2px;
+    background-color: #00356B;
+    border: solid 1px #00356B;
+}
+
+.board-left-info .left-bio .name {
+    color: black;
+    font-weight: bold;
+}
+
+.linkedin-btn {
+    background-color: #00356B;
+    height: 25px;
+    width: 75px;
+    margin-top: .5rem;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.linkedin-btn:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 568px) {
     .board-left-info {
         margin-bottom: none;
         margin-right: none;
         margin: 1rem;
     }
-}
-
-.board-left-info .left-bio {
-    color: grey;
-    font-size: 14px;
-    width: 200px;
 }
