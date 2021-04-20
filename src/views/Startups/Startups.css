@@ -1,3 +1,33 @@
+.startups h2 {
+    font-family: "LottePaperFang";
+    color: #00356B;
+}
+
+.startups h2 .replace-s {
+    font-family: "Cocogoose";
+    font-size: 1.2em;
+}
+
 .startups-body {
     background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.startup-illustration {
+    width: 60vw;
+}
+
+.startups-hype {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 568px) {
+    .startups-body {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

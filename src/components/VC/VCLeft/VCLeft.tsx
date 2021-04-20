@@ -1,14 +1,13 @@
 import React from 'react';
 import BoardProps from '../../../models/BoardProps';
-import './BoardLeft.css';
+import './VCLeft.css';
 
-export default class BoardLeft extends React.Component<BoardProps>{
+export default class VCLeft extends React.Component<BoardProps>{
 
     render() {
         return (
-            
-            <div className="board-left-info">
-                <circle className="board-left-headshot-circle">
+            <div className="vc-left-info">
+                <circle className="vc-left-headshot-circle">
                     <img alt="headshot" className="board-left-headshot" src={this.props.headshotURL} />
                 </circle>
                 <span className="left-bio">

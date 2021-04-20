@@ -16,13 +16,12 @@ header {}
         justify-content: center;
         color: #00AFEA;
         background-color: #00356B;
-        align-items: center;
     }
     .logo {
         grid-row: 1;
         padding: .5rem;
+        padding-left: none;
         height: 15vmin;
-        pointer-events: none;
     }
     #navbar {
         display: none;
@@ -42,8 +41,9 @@ header {}
     .logo {
         grid-row: 1;
         padding: .5rem;
+        margin-bottom: .5rem;
         height: 10vmin;
-        pointer-events: none;
+        justify-self: start;
     }
     #navbar {
         grid-row: 1;
