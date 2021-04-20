@@ -15,7 +15,7 @@ export default class BoardRight extends React.Component<BoardProps>{
                 </hr>
                     {this.props.bio}
                     <br/>
-                    <a href={`${this.props.linkedin}`}>
+                    <a target="_blank" href={`${this.props.linkedin}`}>
                             <button className="linkedin-btn">
                                 Connect
                         </button>

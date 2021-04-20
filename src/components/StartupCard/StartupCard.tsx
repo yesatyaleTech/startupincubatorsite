@@ -17,7 +17,7 @@ export default class StartUpCard extends React.Component<StartUpCardProps>{
                     <p>{this.props.name}</p>
                     <p className="startup-writeup">{this.props.writeup}</p>
                     <div className="button-container">
-                        <a href={this.props.websiteLink}>
+                        <a target="_blank" href={this.props.websiteLink}>
                             <button className="startup-card-btn">
                                 Visit Site
                         </button>

@@ -100,32 +100,38 @@ export default class About extends React.Component<{}>{
                 <span className="board">
                     <BoardLeft
                     name="Vicki Politis"
+                    linkedin="https://www.linkedin.com/in/vicki-politis/"
                     headshotURL={vicki}
                     bio="Vicki Politis is the Managing Director of Golden Seeds, a fund that invests in women-led ventures across the nation."
                     />
                     <BoardRight
                     headshotURL={lisbeth}
+                    linkedin="https://www.linkedin.com/in/lisbeth-kaufman/"
                     name="Lisbeth Kaufman"
                     bio="Lisbeth Kaufman is the founder of KitSplit and is leading startup mentorship/ development at AWS."
                     />
                     <BoardLeft
                     headshotURL={philip}
                     name="Philip Stanger"
+                    linkedin="https://www.linkedin.com/in/philip-stanger-34624532/"
                     bio="Philip Stanger is the Founder and CEO of Olyns and the Entrepreneur in Residence at Vanedge Capital."
                     />
                     <BoardRight
                     headshotURL={sam}
                     name="Sam Hendel"
+                    linkedin="https://www.linkedin.com/in/sam-hendel-a2093/"
                     bio="Sam Hendel is the President at Easterly Investment Partners, the Co-Founder of Dataminr, and the co-founder of Accelerate Yale & Yale Angels."
                     />
                     <BoardLeft
                     headshotURL={leslie}
                     name="Leslie Goldman"
+                    linkedin="https://www.linkedin.com/in/leslieagoldman/"
                     bio="Leslie Goldman is an investor at Blue Ivy Ventures and Co-Founder and general partner at the Artemis Fund which invests in pre-seed and seed women-led ventures."
                     />
                     <BoardRight
                     headshotURL={kofi}
                     name="Kofi Ampadu"
+                    linkedin="https://www.linkedin.com/in/kofiampadu/"
                     bio="Kofi Ampadu is a general partner SKU'D ventures, a pre-seed fund that invests in consumer brand startups."
                     />
                 </span>
