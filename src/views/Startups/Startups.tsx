@@ -1,9 +1,9 @@
 import React from 'react';
 import StartUpCard from '../../components/StartupCard/StartupCard';
 import './Startups.css'
-import craniometrix from '../../images/craniometrix.jpg'
-import enlighteN from '../../images/enlighteN.jpg'
-import startups from '../../images/Startups.svg';
+import craniometrix from '../../images/logos/craniometrix.jpg'
+import enlighteN from '../../images/logos/enlighteN.jpg'
+import startups from '../../images/illustrations/Startupsb.svg';
 
 export default class Startups extends React.Component<{}> {
 

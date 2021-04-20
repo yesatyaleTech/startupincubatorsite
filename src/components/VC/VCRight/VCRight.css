@@ -1,0 +1,42 @@
+.vc-right-headshot {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.vc-right-headshot-circle {
+    height: 120px;
+    width: 120px;
+    margin-left: .5rem;
+}
+
+.vc-right-info {
+    height: fit-content;
+    width: fit-content;
+    flex-direction: row;
+    padding: 1rem;
+    grid-column: 2;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.315);
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.vc-right-info .right-bio {
+    color: grey;
+    font-size: 14px;
+    width: 200px
+}
+
+@media screen and (max-width:568px) {
+    .vc-right-info {
+        grid-column: 1;
+        margin-top: none;
+        margin-left: none;
+        margin: 1rem;
+        margin-left: none;
+    }
+}

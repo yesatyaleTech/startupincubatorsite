@@ -1,10 +1,10 @@
-.about h2 {
+.vc h2 {
     color: #00356B;
     font-family: 'LottePaperFang';
 }
 
-.incubator-image {
-    width: 30vw;
+.vc-image {
+    width: 40vw;
 }
 
 .ww-do-title {
@@ -37,27 +37,11 @@
     font-weight: bold;
 }
 
-.directory-btn {
-    background-color: #00356B;
-    color: white;
-    text-align: center;
-    border-radius: 12px;
-    padding: 1rem;
-    font-weight: bold;
-    outline: none;
-    border: none;
-    width: fit-content;
-}
-
-.directory-btn:hover {
-    box-shadow: 2px 2px 5px rgba(98, 95, 131, 0.627);
-}
-
 .ww-do {
     margin-left: 25vw;
     margin-right: 25vw;
-    font-weight: bold;
     font-size: 18px;
+    font-weight: normal;
 }
 
 .leaders {
@@ -90,7 +74,7 @@
     .for-founders {
         padding-top: 1rem;
     }
-    .incubator-image {
-        width: 60vw;
+    .vc-image {
+        width: 80vw;
     }
 }

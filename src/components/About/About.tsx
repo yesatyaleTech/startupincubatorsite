@@ -2,19 +2,18 @@ import React from 'react';
 import '../../index.css';
 import './About.css'
 import Leaders from './Leaders/Leaders';
-import clark from '../../images/clarkk.jpeg';
-import johnathan from '../../images/johnathanp.jpg';
-import emma from '../../images/emmar.jpeg';
+import clark from '../../images/headshots/clarkk.jpeg';
+import johnathan from '../../images/headshots/johnathanp.jpg';
+import emma from '../../images/headshots/emmar.jpeg';
 import BoardLeft from './BoardLeft/BoardLeft';
 import BoardRight from './BoardRight/BoardRight';
-import vicki from '../../images/vicki.jpeg';
-import lisbeth from '../../images/lisbeth.jpeg';
-import philip from '../../images/philip.jpeg';
-import sam from '../../images/sam.jpeg';
-import leslie from '../../images/leslie.jpeg';
-import kofi from '../../images/kofi.jpeg';
-import IncubatorImage from '../../images/WhatWeDo.svg';
-import ScrollAnimation from 'react-animate-on-scroll';
+import vicki from '../../images/headshots/vicki.jpeg';
+import lisbeth from '../../images/headshots/lisbeth.jpeg';
+import philip from '../../images/headshots/philip.jpeg';
+import sam from '../../images/headshots/sam.jpeg';
+import leslie from '../../images/headshots/leslie.jpeg';
+import kofi from '../../images/headshots/kofi.jpeg';
+import IncubatorImage from '../../images/illustrations/wedo.svg';
 
 export default class About extends React.Component<{}>{
 
