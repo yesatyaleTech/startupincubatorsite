@@ -25,17 +25,6 @@
     margin-right: 2rem;
 }
 
-.nav-links {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-
-.nav-links:hover {
-    background-color: #a9a9a9;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-}
 
 .fa-bars {
     color: #fff;
@@ -45,7 +34,7 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 568px) {
     .NavbarItems {
         position: relative;
     }
