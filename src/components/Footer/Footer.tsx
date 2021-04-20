@@ -107,13 +107,10 @@ export default class Footer extends React.Component<{}>{
                         <div>
                             <a href="/">Home</a></div>
                         <div>
-                            <a href="/faq">FAQ</a>
+                            <a href="/startups">Startups</a>
                         </div>
                         <div>
-                            <a href="/about">About</a>
-                        </div>
-                        <div>
-                            <a href="/catalog">Catalog</a>
+                            <a href="/venture-capital">VC Team</a>
                         </div>
                         <h2 className="yes-links">Yale Entrepreneurial Society</h2>
                         <div>
