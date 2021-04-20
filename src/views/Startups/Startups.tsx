@@ -1,6 +1,9 @@
 import React from 'react';
 import StartUpCard from '../../components/StartupCard/StartupCard';
-import './Startups.css'
+import './Startups.css';
+import Ren_logo from '../../images/logos/Ren_logo.jpg'
+import Sprxng_logo from '../../images/logos/sprxng.jpg'
+import LOB_logo from '../../images/logos/LOB.png'
 import craniometrix from '../../images/logos/craniometrix.jpg'
 import enlighteN from '../../images/logos/enlighteN.jpg'
 import startups from '../../images/illustrations/Startupsb.svg';
@@ -132,6 +135,15 @@ export default class Startups extends React.Component<{}> {
                     />
 
                     <StartUpCard
+                        name="Sprxng"
+                        founder="Phyllis Mugadza"
+                        writeup="Reusable menstrual product that reduces menstrual cramping"
+                        websiteLink="http://lotsofberries.com/"
+                        contact=""
+                        logo={Sprxng_logo}
+                    /> 
+
+                    <StartUpCard
                         name="Ecopackables"
                         founder="Shervin Dehmoubed"
                         writeup="Sustainable packaging company with a B2B approach"
@@ -139,6 +151,24 @@ export default class Startups extends React.Component<{}> {
                         contact=""
                         logo="https://cdn.shopify.com/s/files/1/0443/9634/7547/files/ecopackables_green_752x.png?v=1595698484"
                     />
+
+                    <StartUpCard
+                        name="Ren"
+                        founder="Maddie Mahre"
+                        writeup="Sustainable tailor-fit women’s clothing company that offers wardrobe capsules or individual garments without the price tag or wait time"
+                        websiteLink="https://www.ren-clothing.com/"
+                        contact=""
+                        logo={Ren_logo}
+                    />
+
+                    <StartUpCard
+                        name="Lots of Berries"
+                        founder="Rakel Tanibajeva"
+                        writeup="Sustainable high fashion line sourced entirely from upcycled fabrics"
+                        websiteLink="http://lotsofberries.com/"
+                        contact="lotsofberries@yahoo.com"
+                        logo={LOB_logo}
+                    />        
 
                 </div>
             </div>

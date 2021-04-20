@@ -7,13 +7,16 @@ import johnathan from '../../images/headshots/johnathanp.jpg';
 import emma from '../../images/headshots/emmar.jpeg';
 import BoardLeft from './BoardLeft/BoardLeft';
 import BoardRight from './BoardRight/BoardRight';
+import chanwook from '../../images/headshots/chanwookp.jpg';
+import prastik from '../../images/headshots/prastik.jpeg';
+import alex from '../../images/headshots/alexc.jpeg';
 import vicki from '../../images/headshots/vicki.jpeg';
 import lisbeth from '../../images/headshots/lisbeth.jpeg';
 import philip from '../../images/headshots/philip.jpeg';
 import sam from '../../images/headshots/sam.jpeg';
 import leslie from '../../images/headshots/leslie.jpeg';
 import kofi from '../../images/headshots/kofi.jpeg';
-import IncubatorImage from '../../images/illustrations/wedo.svg';
+import IncubatorImage from '../../images/illustrations/Incubatorb.svg';
 
 export default class About extends React.Component<{}>{
 
@@ -63,6 +66,23 @@ export default class About extends React.Component<{}>{
                     <Leaders
                     headshotURL={johnathan}
                     bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math. Pod Experience Lead"
+                    />
+                </span>
+                <h2>
+                    Our Curator<span className="replace-s">s</span>
+                </h2>
+                <span className="leaders">
+                    <Leaders
+                    headshotURL={chanwook}
+                    bio="Chanwook Park is a first-year in Saybrook College interested in studying S&DS and/or Global Affairs."
+                    />
+                    <Leaders
+                    headshotURL={prastik}
+                    bio="Prastik Mohanraj is a rising second-year in Grace Hopper College hoping to study Economics and Political Science."
+                    />
+                    <Leaders
+                    headshotURL={alex}
+                    bio="Alex Chun is a first-year in JE studying Mechanical Engineering and Economics."
                     />
                 </span>
                 <h2>
