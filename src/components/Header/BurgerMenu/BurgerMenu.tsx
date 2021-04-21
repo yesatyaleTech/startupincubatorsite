@@ -1,17 +1,27 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './BurgerMenu.css'
+import Logo from '../../../images/Logo.png'
 
-class BurgerMenu extends React.Component {
-    state = { clicked: false }
+class BurgerMenu extends React.Component<{}, any> {
+
+    constructor(props: any) {
+        super(props);
+
+        this.state = { clicked: false }
+    }
 
 
     render() {
         return (
             <Menu
+                noOverlay
+                disableAutoFocus
                 isOpen={false}
                 right={true}
             >
+
+                {/* <img src={Logo} className="bm-header" /> */}
                 <a className="menu-item" href="/startups">
 
                     <p>

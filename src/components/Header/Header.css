@@ -16,6 +16,7 @@ header {}
         justify-content: center;
         color: #00AFEA;
         background-color: #00356B;
+        padding-bottom: .5rem;
     }
     .logo {
         grid-row: 1;

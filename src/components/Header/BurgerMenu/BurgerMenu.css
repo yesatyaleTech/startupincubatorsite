@@ -1,7 +1,7 @@
 /* Position and sizing of burger button */
 
 .bm-burger-button {
-    position: absolute;
+    position: fixed;
     width: 20px;
     height: 20px;
     left: calc(100vw - 50px);
@@ -12,10 +12,15 @@
 /* Color/shape of burger icon bars */
 
 .bm-burger-bars {
-    background: white;
+    background: grey;
+}
+
+.bm-burger-bars:focus {
+    background: grey;
 }
 
 .menu-item {
+    text-decoration: none;
     border-radius: 12px;
     border: none;
     font-size: 24px;
@@ -24,17 +29,11 @@
     font-weight: bold;
 }
 
-.menu-item:hover,
-.menu-item:focus {
-    outline: none;
-    color: #2079DD;
-}
-
 
 /* Color/shape of burger icon bars on hover*/
 
 .bm-burger-bars-hover {
-    background: white;
+    background: grey;
 }
 
 
@@ -43,6 +42,7 @@
 .bm-cross-button {
     height: 24px;
     width: 24px;
+    display: none;
 }
 
 
@@ -50,6 +50,7 @@
 
 .bm-cross {
     background: #bdc3c7;
+    display: none;
 }
 
 
@@ -70,6 +71,11 @@
     background: #E5EAF3;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+    margin-top: .5rem;
+}
+
+.bm-menu a {
+    padding-left: .5em;
 }
 
 
@@ -92,9 +98,15 @@
 /* Individual item */
 
 .bm-item {
-    display: inline-block;
-    color: #373a47;
+    color: white;
     text-align: center;
+    justify-self: center;
+    width: 100%;
+    background-color: #00356B;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right: 20px;
 }
 
 .bm-item:hover,
@@ -107,6 +119,17 @@
 
 .bm-overlay {
     background: white;
+}
+
+.bm-header {
+    margin: .5rem;
+}
+
+.bm-header {
+    width: 100%;
+    background-color: #00356B;
+    border-radius: 12px;
+    padding: 1rem;
 }
 
 .replace-s {
