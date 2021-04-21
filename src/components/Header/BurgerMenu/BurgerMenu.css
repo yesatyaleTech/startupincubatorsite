@@ -16,22 +16,18 @@
 }
 
 .menu-item {
-    background-color: white;
-    width: 100%;
-    height: fit-content;
-    padding: 1rem;
-    margin: .5rem;
     border-radius: 12px;
     border: none;
-    font-size: 16px;
+    font-size: 24px;
+    font-family: 'LottePaperFang';
+    color: #00356B;
     font-weight: bold;
 }
 
 .menu-item:hover,
 .menu-item:focus {
     outline: none;
-    background: #00AFEA;
-    color: white;
+    color: #2079DD;
 }
 
 
@@ -111,4 +107,9 @@
 
 .bm-overlay {
     background: white;
+}
+
+.replace-s {
+    font-family: "Cocogoose";
+    font-size: 1.2em;
 }

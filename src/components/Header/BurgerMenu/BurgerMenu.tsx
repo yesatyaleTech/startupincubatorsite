@@ -1,6 +1,5 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
-import { MenuItems } from "./MenuItems"
 import './BurgerMenu.css'
 
 class BurgerMenu extends React.Component {
@@ -13,14 +12,14 @@ class BurgerMenu extends React.Component {
                 isOpen={false}
                 right={true}
             >
-                <a>
+                <a className="menu-item">
                     <p>
-                        Startups
+                        <span className="replace-s">S</span>tartup<span className="replace-s">S</span>
                     </p>
                 </a>
-                <a>
+                <a className="menu-item">
                     <p>
-                        VC Teams
+                        VC Team
                     </p>
 
                 </a>
