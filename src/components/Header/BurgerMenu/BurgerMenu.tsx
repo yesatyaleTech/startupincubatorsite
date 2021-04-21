@@ -9,29 +9,18 @@ class BurgerMenu extends React.Component {
 
     render() {
         return (
-            <Menu>
+            <Menu
                 isOpen={false}
-            right={true}
-
-
-
-
+                right={true}
+            >
                 <a>
                     <p>
-
                         Startups
-
-
                     </p>
-
-
                 </a>
                 <a>
                     <p>
-
                         VC Teams
-
-
                     </p>
 
                 </a>
