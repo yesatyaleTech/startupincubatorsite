@@ -16,7 +16,7 @@ class BurgerMenu extends React.Component {
 
 
 
-                <a>
+                <a href="/startups">
                     <p>
 
                         Startups
@@ -26,7 +26,7 @@ class BurgerMenu extends React.Component {
 
 
                 </a>
-                <a>
+                <a href="/venture-capital">
                     <p>
 
                         VC Teams
