@@ -40,7 +40,7 @@ export default class Startups extends React.Component<{}> {
                         founder="Ryan Schiller"
                         writeup="Anonymous social media app for Ivy League students"
                         websiteLink="https://librexapp.com/"
-                        contact="rossjohnson@outlook.com"
+                        contact="ryan.schiller@yale.edu"
                         logo="https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/dc/ac/40/dcac40f8-82e9-3b41-8c2d-d1b3ac778be1/source/512x512bb.jpg"
                     />
 
@@ -49,16 +49,25 @@ export default class Startups extends React.Component<{}> {
                         founder="Mike Chime"
                         writeup="Transform the way we communicate during any emergency"
                         websiteLink="https://www.preparedapp.com/"
-                        contact=""
+                        contact="michael@preparedapp.com"
                         logo="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/50/e9/d8/50e9d8e9-c071-f084-8914-af9970c05203/source/512x512bb.jpg"
                     />
+                    
+                    <StartUpCard
+                        name="Sprxng"
+                        founder="Phyllis Mugadza"
+                        writeup="Reusable menstrual product that reduces menstrual cramping"
+                        websiteLink="http://lotsofberries.com/"
+                        contact="phyllis.mugadza@yale.edu"
+                        logo={Sprxng_logo}
+                    /> 
 
                     <StartUpCard
                         name="Cadoo"
                         founder="Dan Avila"
                         writeup="Make money for completing running challenges. Get fit. Get Paid."
                         websiteLink="https://www.cadoo.io/"
-                        contact=""
+                        contact="danavila1020@gmail.com"
                         logo="https://photos.angel.co/startups/i/6894606-3655e6a33a49ceaaadda67af9ee85618-medium_jpg.jpg?buster=1592179463"
                     />
 
@@ -67,7 +76,7 @@ export default class Startups extends React.Component<{}> {
                         founder="Clark Klitenic"
                         writeup="Powering a new generation of data-driven athletes"
                         websiteLink="https://statstak.io/"
-                        contact=""
+                        contact="clark.klitenic@yale.edu"
                         logo="https://pbs.twimg.com/profile_images/1354626301290807296/fgUPhUZG.jpg"
                     />
 
@@ -78,6 +87,15 @@ export default class Startups extends React.Component<{}> {
                         websiteLink="https://floesafe.com/"
                         contact="info@floesafe.com"
                         logo="https://floesafe.com/wp-content/uploads/2020/06/Floe-logo-blue.png"
+                    />
+                    
+                    <StartUpCard
+                        name="Ren"
+                        founder="Maddie Mahre"
+                        writeup="Sustainable tailor-fit women’s clothing company that offers wardrobe capsules or individual garments without the price tag or wait time"
+                        websiteLink="https://www.ren-clothing.com/"
+                        contact="maddie.mahre@yale.edu"
+                        logo={Ren_logo}
                     />
 
                     <StartUpCard
@@ -94,7 +112,7 @@ export default class Startups extends React.Component<{}> {
                         founder="Brandon Peterson"
                         writeup="Dedication to a healthier, natural alternative to a traditional energy drink"
                         websiteLink="https://www.seltzenergy.com"
-                        contact=""
+                        contact="brandon.peterson@yale.edu"
                         logo="https://static1.squarespace.com/static/603bf06c9959d83fcdc0f01e/t/603bf544fe1d40450f163f66/1615300052046/?format=1500w"
                     />
 
@@ -103,7 +121,7 @@ export default class Startups extends React.Component<{}> {
                         founder="Nikhil Patel"
                         writeup="First software tools that quickly, inexpensively, and accurately catch Alzheimer’s disease years before a doctor"
                         websiteLink="https://drive.google.com/file/d/1sQcOToYQCn19T9RYNQ-HIZxdXxAilRFe/view"
-                        contact=""
+                        contact="n.patel@yale.edu"
                         logo={craniometrix}
                     />
 
@@ -112,7 +130,7 @@ export default class Startups extends React.Component<{}> {
                         founder="Steve Blanco"
                         writeup="The future of skin care"
                         websiteLink="https://mobiuscapsules.com/"
-                        contact=""
+                        contact="steve.blanco@yale.edu"
                         logo="https://cdn.shopify.com/s/files/1/0493/9513/8721/files/MobiusCapsulesLogoHDblack_copy_160x@2x.png?v=1609616412"
                     />
 
@@ -130,36 +148,19 @@ export default class Startups extends React.Component<{}> {
                         founder="Chandra Fincke"
                         writeup="Detect opioid-induced respiratory depression in real-time to develop the first closed-loop naloxone injection system"
                         websiteLink=""
-                        contact=""
+                        contact="chandra.fincke@yale.edu"
                         logo={enlighteN}
                     />
-
-                    <StartUpCard
-                        name="Sprxng"
-                        founder="Phyllis Mugadza"
-                        writeup="Reusable menstrual product that reduces menstrual cramping"
-                        websiteLink="http://lotsofberries.com/"
-                        contact=""
-                        logo={Sprxng_logo}
-                    /> 
 
                     <StartUpCard
                         name="Ecopackables"
                         founder="Shervin Dehmoubed"
                         writeup="Sustainable packaging company with a B2B approach"
                         websiteLink="https://www.ecopackables.com/"
-                        contact=""
+                        contact="shervin.dehmoubed@yale.edu"
                         logo="https://cdn.shopify.com/s/files/1/0443/9634/7547/files/ecopackables_green_752x.png?v=1595698484"
                     />
 
-                    <StartUpCard
-                        name="Ren"
-                        founder="Maddie Mahre"
-                        writeup="Sustainable tailor-fit women’s clothing company that offers wardrobe capsules or individual garments without the price tag or wait time"
-                        websiteLink="https://www.ren-clothing.com/"
-                        contact=""
-                        logo={Ren_logo}
-                    />
 
                     <StartUpCard
                         name="Lots of Berries"

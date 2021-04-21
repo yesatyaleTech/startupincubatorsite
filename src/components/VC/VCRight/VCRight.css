@@ -31,6 +31,19 @@
     width: 200px
 }
 
+.vc-right-info .right-bio .divider {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 2px;
+    background-color: #00356B;
+    border: solid 1px #00356B;
+}
+
+.vc-right-info .right-bio .name {
+    color: black;
+    font-weight: bold;
+}
+
 @media screen and (max-width:568px) {
     .vc-right-info {
         grid-column: 1;
