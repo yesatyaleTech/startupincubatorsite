@@ -1,36 +1,41 @@
 import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 import { MenuItems } from "./MenuItems"
 import './BurgerMenu.css'
 
-class Navbar extends React.Component {
+class BurgerMenu extends React.Component {
     state = { clicked: false }
-
-    handleClick = () => {
-        this.setState({ clicked: !this.state.clicked })
-
-    }
 
 
     render() {
-        return(
-            <nav className="NavbarItems">
-                <h1 className="navbar-logo">YES Startup Incubator</h1>
+        return (
+            <Menu>
+                isOpen={false}
+            right={true}
 
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                {item.title}
-                                </a>
-                            </li>
-                        )
-                    })}  
-                </ul>
-            </nav>
+
+
+
+                <a>
+                    <p>
+
+                        Startups
+
+
+                    </p>
+
+
+                </a>
+                <a>
+                    <p>
+
+                        VC Teams
+
+
+                    </p>
+
+                </a>
+            </Menu>
 
 
         )
@@ -39,4 +44,4 @@ class Navbar extends React.Component {
 
 
 
-export default Navbar
+export default BurgerMenu
