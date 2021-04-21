@@ -12,12 +12,13 @@ class BurgerMenu extends React.Component {
                 isOpen={false}
                 right={true}
             >
-                <a className="menu-item">
+                <a className="menu-item" href="/startups">
+
                     <p>
                         <span className="replace-s">S</span>tartup<span className="replace-s">S</span>
                     </p>
                 </a>
-                <a className="menu-item">
+                <a className="menu-item" href="/venture-capital">
                     <p>
                         VC Team
                     </p>
