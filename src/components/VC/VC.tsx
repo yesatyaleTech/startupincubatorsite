@@ -9,6 +9,7 @@ import carolyne from '../../images/headshots/carolyne.jpg';
 import gracie from '../../images/headshots/gracie.jpeg';
 import royce from '../../images/headshots/royce.jpg'
 import zakaria from '../../images/headshots/zakaria.jpg';
+import emma from '../../images/headshots/emmar.jpeg';
 
 export default class VC extends React.Component<{}>{
 
@@ -28,30 +29,43 @@ export default class VC extends React.Component<{}>{
                 </h2>
                 <span className="board">
                     <VCLeft
-                        headshotURL={carolyne}
-                        name="Carolyne Newman"
-                        bio="Carolyne is currently taking a gap year while working as a data scientist at Vice Ventures. Her favorite industry verticals include CPG, Climate Tech, AI/ML and Robotics."
+                        headshotURL={emma}
+                        name="Emma Reilly"
+                        bio="Emma is a senior in Pierson College on the women’s lacrosse team and is currently taking a gap year."
+                        linkedin="https://www.linkedin.com/in/emma-reilly-6b3b11177/"
                     />
                     <VCRight
-                        headshotURL={royce}
-                        name="Royce Guo"
-                        bio="Royce is a sophomore on a gap year working with visionary founders, investors, and entrepreneurs at Blue Ivy Ventures."
+                        headshotURL={carolyne}
+                        name="Carolyne Newman"
+                        linkedin="https://www.linkedin.com/in/carolyne-newman/"
+                        bio="Carolyne is currently taking a gap year while working as a data scientist at Vice Ventures. Her favorite industry verticals include CPG, Climate Tech, AI/ML and Robotics."
                     />
                     <VCLeft
                         headshotURL={zakaria}
                         name="Zakaria Gedi"
+                        linkedin="https://www.linkedin.com/in/zakaria-gedi/"
                         bio="Zakaria is a junior at Yale University working as an investment partner at the Dorm Room Fund. Professionally, he worked at Bracebridge, a Boston-based absolute return hedge fund, and is currently working part-time at the Yale Investments Office."
                     />
                     <VCRight
                         headshotURL={vikram}
                         name="Vikram Mullick"
+                        linkedin="https://www.linkedin.com/in/vikram-mullick-39978a159/"
                         bio="Vikram is a Computer Science and Economics major in Ezra Stiles College. He is a VP at Contrary Capital and has past experience working at startups including Snackpass and Matician, an AI/Robotics startup. "
                     />
                     <VCLeft
                         headshotURL={gracie}
                         name="Gracie Englebert"
+                        linkedin="https://www.linkedin.com/in/gracie-englebert-8161301a5/"
                         bio="Gracie is a junior from Wisconsin pursuing a major in history. She currently works at an ed-tech startup and is a passionate Morse IM Secretary."
                     />
+                    <VCRight
+                        headshotURL={royce}
+                        name="Royce Guo"
+                        linkedin="https://www.linkedin.com/in/roycetiger/"
+                        bio="Royce is a sophomore on a gap year working with visionary founders, investors, and entrepreneurs at Blue Ivy Ventures."
+                    />
+
+
                 </span>
                 <br />
                 <br />

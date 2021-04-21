@@ -17,7 +17,14 @@ export default class VCLeft extends React.Component<BoardProps>{
                     <hr className="divider">
                     </hr>
                     {this.props.bio}
+                    <br />
+                    <a target="_blank" href={`${this.props.linkedin}`}>
+                        <button className="linkedin-btn">
+                            Connect
+                        </button>
+                    </a>
                 </span>
+
             </div>
         );
     }

@@ -14,6 +14,12 @@ export default class VCRight extends React.Component<BoardProps>{
                 <hr className="divider">
                 </hr>
                     {this.props.bio}
+                    <br/>
+                    <a target="_blank" href={`${this.props.linkedin}`}>
+                            <button className="linkedin-btn">
+                                Connect
+                        </button>
+                        </a>
                 </span>
                 <circle className="vc-right-headshot-circle">
                     <img alt="headshot" className="board-right-headshot" src={this.props.headshotURL} />
