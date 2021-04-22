@@ -120,7 +120,7 @@ export default class Startups extends React.Component<{}> {
                         name="Craniometrix"
                         founder="Nikhil Patel"
                         writeup="First software tools that quickly, inexpensively, and accurately catch Alzheimer’s disease years before a doctor"
-                        websiteLink="http://craniometrix.com/"
+                        websiteLink="https://craniometrix.com/"
                         contact="n.patel@yale.edu"
                         logo={craniometrix}
                     />
