@@ -47,9 +47,6 @@
 @media screen and (max-width:568px) {
     .vc-right-info {
         grid-column: 1;
-        margin-top: none;
-        margin-left: none;
         margin: 1rem;
-        margin-left: none;
     }
 }
