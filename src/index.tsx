@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './Fonts/LottePaperFang.ttf';
-import './Fonts/cocogoose/CocogooseUltralight.ttf'
+import './Fonts/cocogoose/CocogooseUltralight.ttf';
+import './Fonts/OpenSans-Regular.ttf';
+
 import App from './views/App';
 import reportWebVitals from './reportWebVitals';
 

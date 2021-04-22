@@ -20,8 +20,12 @@ class BurgerMenu extends React.Component<{}, any> {
                 isOpen={false}
                 right={true}
             >
+                <a className="menu-item" href="/">
+                    <p>
+                        Home
+                    </p>
 
-                {/* <img src={Logo} className="bm-header" /> */}
+                </a>
                 <a className="menu-item" href="/startups">
 
                     <p>
