@@ -71,7 +71,7 @@ export default class About extends React.Component<{}>{
                     />
                     <Leaders
                     headshotURL={johnathan}
-                    name="Johnathan Pierre"
+                    name="Jonathan Pierre"
                     bio="Jonathan is a first-year in Saybrook from Boston, MA, studying economics and math."
                     role="Pod Experience Lead"
                     linkedin="https://www.linkedin.com/in/jonathan-l-pierre/"
