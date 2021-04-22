@@ -60,7 +60,7 @@ export default class VC extends React.Component<{}>{
                     />
                     <VCRight
                         headshotURL={royce}
-                        name="Royce Guo"
+                        name="Royce Tiger"
                         linkedin="https://www.linkedin.com/in/roycetiger/"
                         bio="Royce is a sophomore on a gap year working with visionary founders, investors, and entrepreneurs at Blue Ivy Ventures."
                     />

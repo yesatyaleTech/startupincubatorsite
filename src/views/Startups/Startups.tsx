@@ -111,7 +111,7 @@ export default class Startups extends React.Component<{}> {
                         name="Seltz"
                         founder="Brandon Peterson"
                         writeup="Dedication to a healthier, natural alternative to a traditional energy drink"
-                        websiteLink="https://www.seltzenergy.com"
+                        websiteLink="https://www.indiegogo.com/projects/seltz-energy-focus-enhancing-energy-seltzer--2#/"
                         contact="brandon.peterson@yale.edu"
                         logo="https://static1.squarespace.com/static/603bf06c9959d83fcdc0f01e/t/603bf544fe1d40450f163f66/1615300052046/?format=1500w"
                     />
@@ -120,7 +120,7 @@ export default class Startups extends React.Component<{}> {
                         name="Craniometrix"
                         founder="Nikhil Patel"
                         writeup="First software tools that quickly, inexpensively, and accurately catch Alzheimer’s disease years before a doctor"
-                        websiteLink="https://drive.google.com/file/d/1sQcOToYQCn19T9RYNQ-HIZxdXxAilRFe/view"
+                        websiteLink="http://craniometrix.com/"
                         contact="n.patel@yale.edu"
                         logo={craniometrix}
                     />
@@ -141,15 +141,6 @@ export default class Startups extends React.Component<{}> {
                         websiteLink="https://www.linklearningsolutions.com/"
                         contact="inquiries@linklearningsolutions.com"
                         logo="https://static1.squarespace.com/static/600f6cc2f88eb259bc0f6024/t/60103db564aaa147745c3dd9/1611853820996/?format=1500w"
-                    />
-
-                    <StartUpCard
-                        name="enlighteN"
-                        founder="Chandra Fincke"
-                        writeup="Detect opioid-induced respiratory depression in real-time to develop the first closed-loop naloxone injection system"
-                        websiteLink=""
-                        contact="chandra.fincke@yale.edu"
-                        logo={enlighteN}
                     />
 
                     <StartUpCard
