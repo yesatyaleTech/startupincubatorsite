@@ -25,7 +25,7 @@
     border: none;
     font-size: 24px;
     font-family: 'LottePaperFang';
-    color: #00356B;
+    color: #051B33;
     font-weight: bold;
 }
 
@@ -102,7 +102,7 @@
     text-align: center;
     justify-self: center;
     width: 100%;
-    background-color: #00356B;
+    background-color: #051B33;
     border-radius: 12px;
     padding: 1rem;
     margin-top: 1rem;
@@ -127,7 +127,7 @@
 
 .bm-header {
     width: 100%;
-    background-color: #00356B;
+    background-color: #051B33;
     border-radius: 12px;
     padding: 1rem;
 }

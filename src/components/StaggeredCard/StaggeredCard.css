@@ -32,7 +32,7 @@
 }
 
 .staggeredcard-right-info .right-bio .name {
-    color: black;
+    color: #051B33;
     font-weight: bold;
 }
 
@@ -40,12 +40,12 @@
     margin-left: 3rem;
     margin-right: 3rem;
     height: 2px;
-    background-color: #00356B;
-    border: solid 1px #00356B;
+    background-color: #0E4D92;
+    border: solid 1px #0E4D92;
 }
 
 .linkedin-btn {
-    background-color: #00356B;
+    background-color: #0E4D92;
     height: 25px;
     width: 75px;
     margin-top: .5rem;
@@ -106,17 +106,17 @@
     margin-left: 3rem;
     margin-right: 3rem;
     height: 2px;
-    background-color: #00356B;
-    border: solid 1px #00356B;
+    background-color: #0E4D92;
+    border: solid 1px #0E4D92;
 }
 
 .staggeredcard-left-info .left-bio .name {
-    color: black;
+    color: #051B33;
     font-weight: bold;
 }
 
 .linkedin-btn {
-    background-color: #00356B;
+    background-color: #0E4D92;
     height: 25px;
     width: 75px;
     margin-top: .5rem;

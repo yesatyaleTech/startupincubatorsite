@@ -21,21 +21,21 @@
 }
 
 .leader-info .name a {
-    color: black;
+    color: #051B33;
     text-decoration: none;
 }
 
 .leader-info .name a:hover {
-    color: #00356B;
+    color: #0E4D92;
 }
 
-.leader-info .divider {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    height: 3px;
-    background-color: #00356B;
-    border: solid 2px #00356B;
-}
+    .leader-info .divider {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 3px;
+        background-color: #0E4D92;
+        border: solid 2px #0E4D92;
+    }
 
 .leader-info .role {
     font-weight: normal;

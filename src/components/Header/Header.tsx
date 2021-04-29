@@ -4,9 +4,7 @@ import logo from '../../images/Logo.png';
 import HamburgerMenu from './BurgerMenu/BurgerMenu';
 import './Header.css';
 
-export default class Header extends React.Component<{}>{
-
-    render() {
+const Header = () => {
         return (
             <>
                 <header className="header">
@@ -23,5 +21,6 @@ export default class Header extends React.Component<{}>{
                 <br />
             </>
         );
-    }
 }
+
+export default Header
