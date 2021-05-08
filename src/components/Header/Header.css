@@ -14,8 +14,8 @@ header {}
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: #00AFEA;
-        background-color: #00356B;
+        color: #328EF6;
+        background-color: #051B33;
         padding-bottom: .5rem;
     }
     .logo {
@@ -35,7 +35,7 @@ header {}
         color: white;
         font-weight: bold;
         font-size: 1.5rem;
-        background-color: #00356B;
+        background-color: #051B33;
         display: grid;
         align-items: center;
     }
