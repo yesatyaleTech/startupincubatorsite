@@ -62,7 +62,7 @@ const About = () => {
                 <Leaders
                     headshotURL={clark}
                     name="Clark Klitenic"
-                    bio="Clark is a sophomore Trumbullian playing on the Varsity Baseball team currently on a gap semester to work on StatStak."
+                    bio="Clark is a sophomore Trumbullian on the baseball team currently on a gap semester to work on StatStak."
                     role="Incubator Lead"
                     linkedin="https://www.linkedin.com/in/clark-klitenic-433a171b0/"
                 />
