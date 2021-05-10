@@ -82,4 +82,8 @@
         margin-left: none;
         margin-right: none;
     }
+    #noweb {
+        text-align: right;
+        padding-right: .5rem;
+    }
 }

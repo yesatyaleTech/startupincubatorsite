@@ -5,7 +5,8 @@ import Ren_logo from '../../images/logos/Ren_logo.jpg'
 import Sprxng_logo from '../../images/logos/sprxng.jpg'
 import LOB_logo from '../../images/logos/LOB.png'
 import craniometrix from '../../images/logos/craniometrix.jpg'
-import enlighteN from '../../images/logos/enlighteN.jpg'
+import enlighteN from '../../images/logos/enlighteN.jpg';
+import accelgolf from '../../images/logos/accelgolf.webp';
 import startups from '../../images/illustrations/Startupsb.svg';
 
 export default class Startups extends React.Component<{}> {
@@ -57,7 +58,6 @@ export default class Startups extends React.Component<{}> {
                         name="Sprxng"
                         founder="Phyllis Mugadza"
                         writeup="Reusable menstrual product that reduces menstrual cramping"
-                        websiteLink="http://lotsofberries.com/"
                         contact="phyllis.mugadza@yale.edu"
                         logo={Sprxng_logo}
                     /> 
@@ -78,6 +78,15 @@ export default class Startups extends React.Component<{}> {
                         websiteLink="https://statstak.io/"
                         contact="clark.klitenic@yale.edu"
                         logo="https://pbs.twimg.com/profile_images/1354626301290807296/fgUPhUZG.jpg"
+                    />
+
+                    <StartUpCard 
+                        name="Accel Golf"
+                        founder="Ami Gianchandani"
+                        writeup="the statistics tracking system you need to take your golf game to the next level."
+                        websiteLink="https://www.accel-golf.com/about/"
+                        contact="ami@accel-golf.com"
+                        logo={accelgolf}
                     />
 
                     <StartUpCard
