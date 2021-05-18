@@ -83,7 +83,7 @@ export default class Startups extends React.Component<{}> {
                     <StartUpCard 
                         name="Accel Golf"
                         founder="Ami Gianchandani"
-                        writeup="the statistics tracking system you need to take your golf game to the next level."
+                        writeup="The statistics tracking system you need to take your golf game to the next level."
                         websiteLink="https://www.accel-golf.com/about/"
                         contact="ami@accel-golf.com"
                         logo={accelgolf}
