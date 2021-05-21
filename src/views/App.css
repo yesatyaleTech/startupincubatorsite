@@ -7,3 +7,7 @@
     font-family: "Futura", "Open Sans";
     text-align: center;
 }
+
+button {
+    cursor: pointer;
+}
