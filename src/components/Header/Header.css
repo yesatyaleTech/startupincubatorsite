@@ -23,7 +23,7 @@ header {}
     .logo {
         grid-row: 1;
         padding: .5rem;
-        padding-left: none;
+        padding-left: 0;
         height: 12vmin;
         padding-top: 7vmin;
         text-decoration: none;
