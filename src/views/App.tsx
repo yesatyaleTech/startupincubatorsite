@@ -35,7 +35,7 @@ function App() {
               <VentureCapital />
             </Route>
             <Route path='/'>
-              <Home />
+              <Startups />
             </Route>
           </Switch>
         </Router>

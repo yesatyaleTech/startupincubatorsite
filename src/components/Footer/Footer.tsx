@@ -101,15 +101,6 @@ const Footer = () => {
                         </div>
                     </div >
                     <div className="footer-right">
-                        <h2>Learn More</h2>
-                        <div>
-                            <a href="/">Home</a></div>
-                        <div>
-                            <a href="/startups">Startups</a>
-                        </div>
-                        <div>
-                            <a href="/venture-capital">VC Team</a>
-                        </div>
                         <h2 className="yes-links">Yale Entrepreneurial Society</h2>
                         <div>
                             <a target="_blank" rel="noreferrer" href="https://www.yesatyale.org/">Home</a>

@@ -15,7 +15,7 @@ export default class Startups extends React.Component<{}> {
         return (
             <div className="startups">
                 <h2>
-                    Meet our <span className="replace-s">S</span>tartup<span className="replace-s">S</span>
+                    Meet <span className="replace-s">S</span>ome of our <span className="replace-s">S</span>tartup<span className="replace-s">S</span> at Yale
                 </h2>
                 <img src={startups}  className="startup-illustration" />
                 <br/>
